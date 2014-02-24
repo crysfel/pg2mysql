@@ -2,3 +2,4 @@
 .ruby-version
 config/database.yml
 dumps/*.sql
+Gemfile.lock
