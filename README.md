@@ -1,7 +1,12 @@
-#Data migration
+=======
+pg2mysql - Data migration
+========
+A small ruby program to get the data from a PosgreSQL database and then generates a MySQL dump.
+
 I wrote this program to migrate my data from Postgresql to MySQL, it basically generates a MYSQL dump file with the data only, it doesn't create tables, it just gets the data.
 
-##Using it
+Using it
+========
 First you need to change your database credential in *confg/database.yml*, you will find an example in the *config* folder. Once you have defined the postgresql credentials run the following commands.
 
     $ bundle install
