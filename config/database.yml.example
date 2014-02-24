@@ -1,0 +1,5 @@
+adapter:    'postgresql'
+host:       '127.0.0.1'
+database:   'YOUR_DATABASE'
+username:   'PG_USER'
+password:   'PG_PASSWD'
